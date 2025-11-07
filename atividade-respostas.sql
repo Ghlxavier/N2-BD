@@ -28,7 +28,7 @@
 
 -- ALTER TABLE Avaliacao
 -- ADD FULLTEXT INDEX ft_avaliacao_ocorrencia_tipo
--- (ocorrencia);
+-- (ocorrencia , stipo_prova)
 
 -- b)   faça uma busca por suspeitas de cola na P3 utilizando apenas o índice
 
