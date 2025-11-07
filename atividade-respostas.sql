@@ -52,7 +52,6 @@
 -- join Avaliacao av ON av.aluno_turma_id = at.ID
 -- where a.status = 'ativo'
 -- and av.ocorrencia IS NOT NULL
--- and av.ocorrencia <> ''
 -- and a.status NOT IN ('suspenso', 'expulso');
 
 -- 6) Crie duas VIEWs, uma para apresentar os dados do professor (tabelas Professor e Pessoa) e outra para apresentar os dados dos alunos (tabelas Pessoa e Aluno).
@@ -98,7 +97,7 @@
 
 -- create role Secretaria;
 -- GRANT 
--- SELECT, INSERT, UPDATE, CREATE, ALTER, INDEX, EXECUTE
+-- SELECT, INSERT, UPDATE, CREATE, ALTER, INDEX
 -- ON SalaDeAula.*
 -- TO Secretaria;
 -- GRANT Secretaria TO 'secretaria_user'@'localhost';
